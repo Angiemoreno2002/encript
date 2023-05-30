@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <title>encrip-Alura</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/Logo.svg" alt="logo de alura" >challenger Alura
+    </header>
+    <main>
+        <div class="container">
+        <section class="write">
+            <textarea class="text-area" cols="25" rows="10" placeholder="Ingrese texto"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btnEnc" onclick="btnEnc()" >Encriptar</button>
+                <button class="btnDes" onclick="btnDes()">Desencriptar</button>
+            </div>
+        </section>
+
+    </div>
+
+        <div class="container">
+            <section class="answer">
+              <textarea class="msg" cols="20" rows="10"></textarea>
+              <div class="botones">
+                <button class="btnCopy" onclick="copiar()" >Copiar</button>
+              </div>
+            </section>
+        </div>
+
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
